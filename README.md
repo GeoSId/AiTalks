@@ -54,7 +54,7 @@ ChatGPTCompose_Lite is an innovative Android chat application that allows users 
 4.  **Sync Project with Gradle Files:**
     *   Click "Sync Now" in the notification bar or go to `File > Sync Project with Gradle Files`.
 5.  **Set Prompts:**
-    *   You should set ASSISTANT_OPENAI_PROMPT- SYSTEM_OPENAI_PROMPT  and SYSTEM_GEMINI_PROMPT in the `Constant.kt` file.
+    *   You should set ASSISTANT_OPENAI_PROMPT - SYSTEM_OPENAI_PROMPT  and SYSTEM_GEMINI_PROMPT in the `Constant.kt` file.
     *   Try many aspects of the prompt to see what works best for you.
 6.  **Build and Run:**
     *   Click the "Run" button in Android Studio
@@ -73,6 +73,9 @@ The project follows a clean architecture pattern, with the following key modules
 
 Check the video [test_compose_ai_talks](https://github.com/GeoSId/AiTalks/blob/master/test_ai_chat.webm)
 
+
+The core concept of this game is to create a conversation between OpenAI and Gemini where one of the AI models (Gemini, in this case) is restricted from using the words "yes" or "no" in its responses.
+Set ASSISTANT_OPENAI_PROMPT - SYSTEM_OPENAI_PROMPT  and SYSTEM_GEMINI_PROMPT in the `Constant.kt` file to see what works best for the purpose of the game
 
 [test_ai_chat.webm](https://github.com/user-attachments/assets/50adddbd-2b9d-4656-b484-29c9af9585d5)
 
