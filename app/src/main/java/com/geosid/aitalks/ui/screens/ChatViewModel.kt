@@ -5,7 +5,8 @@ import androidx.lifecycle.viewModelScope
 import com.geosid.aitalks.BuildConfig
 import com.geosid.aitalks.constants.ASSISTANT_OPENAI_PROMPT
 import com.geosid.aitalks.constants.SYSTEM_GEMINI_PROMPT
-import com.geosid.aitalks.constants.SYSTEM_OPENAI_PROMPT
+import com.geosid.aitalks.constants.SYSTEM_OPENAI_PROMPT_B
+import com.geosid.aitalks.constants.SYSTEM_OPENAI_PROMPT_F
 import com.geosid.aitalks.data.api.ApiState
 import com.geosid.aitalks.data.remote.ChatRepository
 import com.geosid.aitalks.models.ApiType
@@ -59,7 +60,7 @@ class ChatViewModel @Inject constructor(
                     name = ApiType.OPENAI,
                     token = BuildConfig.openaiapiKey,
                     promptText = message,
-                    systemPrompt = if (hasStart.value) null else SYSTEM_OPENAI_PROMPT,
+                    systemPrompt = if (hasStart.value) null else SYSTEM_OPENAI_PROMPT_F + message + SYSTEM_OPENAI_PROMPT_B,
                     assistantPrompt = if (hasStart.value) null else ASSISTANT_OPENAI_PROMPT
                 )
             val openAiFlow = chatRepository.completeOpenAiChat(params)
