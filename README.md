@@ -4,7 +4,7 @@
 
 ## Overview
 
-ChatGPTCompose_Lite is an innovative Android chat application that allows users to interact with two powerful AI language models: OpenAI and Google's Gemini (formerly Bard). This project explores the fascinating possibilities of AI interaction by creating a unique conversation flow where the responses from each AI model are fed as input to the other, creating a dynamic and often surprising dialogue.
+AiTalks is an innovative Android chat application that allows users to interact with two powerful AI language models: OpenAI and Google's Gemini (formerly Bard). This project explores the fascinating possibilities of AI interaction by creating a unique conversation flow where the responses from each AI model are fed as input to the other, creating a dynamic and often surprising dialogue.
 
 ## Key Features
 
