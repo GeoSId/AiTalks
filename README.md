@@ -46,7 +46,7 @@ ChatGPTCompose_Lite is an innovative Android chat application that allows users 
 ### Installation
 
 1.  **Clone the repository:**
-    *   bash git clone https://github.com/GeoSid/ ...._ Lite- master. git
+    *   bash git clone https://github.com/GeoSid/AiTalks
 
 2.  **Open the project in Android Studio.**
 3.  **Add API Keys:**
@@ -68,6 +68,12 @@ The project follows a clean architecture pattern, with the following key modules
 *   **`domain`:** Contains the business logic and use cases.
 *   **`di`:** Contains the dependency injection modules.
 *   **`ui`:** Contains the UI components.
+* 
+## Video
+
+Check the video [test_compose_ai_talks](https://github.com/GeoSId/AiTalks/blob/master/test_ai_chat.mp4)
+
+[compose_test.webm](https://github.com/user-attachments/assets/a7e0e0d1-0802-4fd0-9dea-04acea12b834)
 
 ## License
 
@@ -75,4 +81,4 @@ The project follows a clean architecture pattern, with the following key modules
 
 ## Contact
 
-*   **GeoSid** - [Your LinkedIn Profile](https://www.linkedin.com/in/george-sideris-5b8744b2/) -
+*   **GeoSid** - [LinkedIn](https://www.linkedin.com/in/george-sideris-5b8744b2/) -
