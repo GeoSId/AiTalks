@@ -71,7 +71,7 @@ The project follows a clean architecture pattern, with the following key modules
 * 
 ## Video
 
-Check the video [test_compose_ai_talks](https://github.com/GeoSId/AiTalks/blob/master/test_ai_chat.webm)
+Check the video [test_compose_ai_talks](https://github.com/GeoSId/AiTalks/blob/master/test_ai_chat.mp4)
 
 ## License
 
