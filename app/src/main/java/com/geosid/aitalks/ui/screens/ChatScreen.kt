@@ -105,7 +105,7 @@ fun ChatScreen(
         },
         bottomBar = {
             ChatInputBox {
-                chatViewModel.sendToOpenAi("")
+                chatViewModel.sendToOpenAi(it)
                 focusManager.clearFocus()
             }
         },

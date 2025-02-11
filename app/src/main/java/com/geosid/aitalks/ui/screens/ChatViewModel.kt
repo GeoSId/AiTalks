@@ -53,14 +53,14 @@ class ChatViewModel @Inject constructor(
         observeFlow()
     }
 
-    fun sendToOpenAi(message: String) {
+    fun sendToOpenAi(prompt: String) {
         viewModelScope.launch {
             val params =
                 CompletionsParam(
                     name = ApiType.OPENAI,
                     token = BuildConfig.openaiapiKey,
-                    promptText = message,
-                    systemPrompt = if (hasStart.value) null else SYSTEM_OPENAI_PROMPT_F + message + SYSTEM_OPENAI_PROMPT_B,
+                    promptText = prompt,
+                    systemPrompt = if (hasStart.value) null else SYSTEM_OPENAI_PROMPT_F + prompt + SYSTEM_OPENAI_PROMPT_B,
                     assistantPrompt = if (hasStart.value) null else ASSISTANT_OPENAI_PROMPT
                 )
             val openAiFlow = chatRepository.completeOpenAiChat(params)
