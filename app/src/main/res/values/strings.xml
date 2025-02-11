@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AI Talks</string>
+    <string name="set_a_topic">Set a Topic</string>
+    <string name="power_by_openai">Powered by OpenAI</string>
+    <string name="power_by_gemini">Powered by Gemini</string>
+
+    <string name="scroll_to_bottom_icon">Scroll to bottom icon</string>
+    <string name="options">Options</string>
+
+    <string name="unknown_error">Unknown error</string>
+
+</resources>
