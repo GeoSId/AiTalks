@@ -73,6 +73,9 @@ The project follows a clean architecture pattern, with the following key modules
 
 Check the video [test_compose_ai_talks](https://github.com/GeoSId/AiTalks/blob/master/test_ai_chat.webm)
 
+[Uploading test_ai_chat.webm…]()
+
+
 ## License
 
 [MIT License](LICENSE)
