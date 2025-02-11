@@ -149,14 +149,11 @@ fun ChatInputBox(
 
     Box(
         modifier = Modifier
-            .fillMaxWidth()
-            .imePadding()
             .windowInsetsPadding(BottomAppBarDefaults.windowInsets)
-            .padding(BottomAppBarDefaults.ContentPadding)
             .background(color = transparent)
     ) {
         BasicTextField(
-            modifier = Modifier.heightIn(max = 100.dp),
+            modifier = Modifier,
             value = value,
             enabled = true,
             textStyle = mergedStyle,
