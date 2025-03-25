@@ -8,5 +8,6 @@
     <string name="options">Options</string>
 
     <string name="unknown_error">Unknown error</string>
+    <string name="OPEN_AI_API_KEY" translatable="false"></string>
 
 </resources>
